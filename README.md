@@ -122,10 +122,25 @@ Even after hyperparameter tuning using GridSearchCV, the best parameters remaine
 
 ## 📸 Visual Results
 
-- ROC Curve Comparison (see `/images/roc_curve.png`)
-- Confusion Matrix - Logistic Regression
-- Confusion Matrix - Random Forest
-- Feature Importance Plot
+# 📸 Visual Results
+
+### 🔵 ROC Curve Comparison
+![ROC Curve](images/roc_curve.png)
+
+---
+
+### 🔷 Confusion Matrix - Logistic Regression
+![Confusion Matrix Logistic Regression](images/confusion_matrix_lr.png)
+
+---
+
+### 🟢 Confusion Matrix - Random Forest
+![Confusion Matrix Random Forest](images/confusion_matrix_rf.png)
+
+---
+
+### 🌲 Feature Importance Plot
+![Feature Importance](images/feature_importance.png)
 
 ---
 
