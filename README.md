@@ -157,9 +157,9 @@ Even after hyperparameter tuning using GridSearchCV, the best parameters remaine
 ## 👨‍💻 Author & Future Improvements
 
 ### 👨‍💻 Author
-Computer Science Student  
-Machine Learning & AI Enthusiast  
-Focused on building real-world ML solutions
+Laksh Kumar 
+Machine Learning Intern
+Developers Hub Cooperation
 
 ### 🚀 Future Improvements
 - Experiment with XGBoost / LightGBM for better performance
