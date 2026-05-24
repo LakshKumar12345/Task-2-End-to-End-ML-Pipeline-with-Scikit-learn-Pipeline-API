@@ -48,11 +48,20 @@ We built a complete end-to-end ML pipeline including:
 
 ---
 
-### 2️⃣ Feature Engineering
-- Separated numerical and categorical features
-- Built preprocessing pipeline using ColumnTransformer
 
----
+## 2️⃣ Feature Engineering
+- Separated numerical and categorical features
+- Built preprocessing pipeline using Scikit-learn's `ColumnTransformer`:
+
+```python
+# Production-grade preprocessing pipeline
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', num_pipeline, num_cols),
+        ('cat', cat_pipeline, cat_cols)
+    ])
+
+```
 
 ### 3️⃣ Models Used
 
@@ -122,7 +131,7 @@ Even after hyperparameter tuning using GridSearchCV, the best parameters remaine
 
 ## 📸 Visual Results
 
-# 📸 Visual Results
+
 
 ### 🔵 ROC Curve Comparison
 ![ROC Curve](screenshots/roc_curve.PNG)
