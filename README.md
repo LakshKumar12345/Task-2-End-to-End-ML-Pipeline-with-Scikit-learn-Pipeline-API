@@ -164,12 +164,12 @@ Even after hyperparameter tuning using GridSearchCV, the best parameters remaine
 ---
 
 ## 👨‍💻 Author & Future Improvements
-
+```
 ### 👨‍💻 Author
 Laksh Kumar 
 Machine Learning Intern
-Developers Hub Cooperation
-
+Developers Hub Corporation
+```
 ### 🚀 Future Improvements
 - Experiment with XGBoost / LightGBM for better performance
 - Handle class imbalance using SMOTE
